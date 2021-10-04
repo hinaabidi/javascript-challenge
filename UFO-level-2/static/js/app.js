@@ -138,6 +138,8 @@ filterButton.on("click", () =>{
         else if (i === 4){
             if (filterShape != ""){
                 outgoingArr = incomingArr.filter( incomingArr => ( incomingArr.shape === filterShape ));
+
+                
             }
             else{
                 outgoingArr = incomingArr
